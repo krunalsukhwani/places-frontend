@@ -9,15 +9,9 @@ const NewPlace = () => {
       <Input
         element="input"
         type="text"
-        id="title"
-        placeholder="Enter Title"
         label="Title"
-      />
-      <Input
-        element="textarea"
-        id="description"
-        label="Title"
-        rows="5"
+        validators={[]}
+        errorText="Please enter a valid title."
       />
     </form>
   );
